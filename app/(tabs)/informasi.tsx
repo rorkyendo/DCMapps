@@ -5,7 +5,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-export default function HomeScreen() {
+export default function InformasiScreen() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#4C967D', dark: '#1D3D47' }}
@@ -16,31 +16,27 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Panduan Pengguna</ThemedText>
+        <ThemedText type="title">Informasi</ThemedText>
+        <HelloWave />
       </ThemedView>
       <ThemedView style={[styles.stepContainer]}>
-        <ThemedText type="subtitle">Judul Aplikasi</ThemedText>
+        <ThemedText type="subtitle">Aida Suryana Ritonga</ThemedText>
         <ThemedText  style={{marginBottom:10}}>
-            PEMANFAATAN ALGORITMA EFFICIENTDET UNTUK
-            DETEKSI CACAR MONYET DAN PENYAKIT KULIT
-            SERUPA MELALUI CITRA LESI KULIT BERBASIS
-            ANDROID
+            NIM : 171402129
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Tujuan</ThemedText>
+        <ThemedText type="subtitle">Pembimbing 1</ThemedText>
+        <ThemedText type="subtitle" style={{fontSize:18}}>Ade Sarah Huzaifah S.Kom., M.Kom.</ThemedText>
         <ThemedText  style={{marginBottom:10}}>
-            Penelitian ini bertujuan untuk mengimplementasikan algoritma EfficientDet pada
-            proses deteksi penyakit kulit Cacar Monyet, dan penyakit kulit serupa, seperti Cacar
-            air, Hand Foot Mouth Disease/Flu Singapura dan Normal.        
+            NIP	:	198506302018032001  
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Cara Penggunaan</ThemedText>
+        <ThemedText type="subtitle">Pembimbing 2</ThemedText>
+        <ThemedText type="subtitle" style={{fontSize:18}}>Fahrurrozi Lubis B.IT., M.Sc.IT</ThemedText>
         <ThemedText  style={{marginBottom:10}}>
-            Masuk ke menu scan yang ada pada navigasi bar, kemudian arahkan kamera dan capture foto untuk di lakukan
-            proses deteksi apakah objek tersebut mengalami penyakit kulit Cacar Monyet, dan penyakit kulit serupa, seperti Cacar
-            air, Hand Foot Mouth Disease/Flu Singapura atau Normal.
+            NIP	:	198610122018052001  
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
